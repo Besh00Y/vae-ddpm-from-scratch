@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+data/
+outputs/*/checkpoints/
+outputs/vae_test/
+.ipynb_checkpoints/

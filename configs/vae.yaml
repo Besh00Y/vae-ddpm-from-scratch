@@ -1,0 +1,16 @@
+seed: 42
+dataset: cifar10
+data_root: data
+num_workers: 2
+
+batch_size: 128
+epochs: 50
+lr: 0.001
+
+latent_dim: 128
+base_channels: 64
+beta: 1.0
+
+save_every: 5
+output_dir: outputs/vae
+ckpt_dir: null   
