@@ -1,0 +1,33 @@
+{
+  "real_test_baseline": {
+    "fid": 3.150838203882529,
+    "is_mean": 10.960401572996641,
+    "is_std": 0.23457450118617781
+  },
+  "vae": {
+    "fid": 127.32153395327919,
+    "is_mean": 3.461015481128134,
+    "is_std": 0.0984523412422876,
+    "n_generated": 3000,
+    "reference": "cifar10-train",
+    "sec_per_image": 7.126107811927795e-05,
+    "images_per_sec": 14032.905849756913,
+    "train_time_min": 14.315008366107941,
+    "params_millions": 2.896003,
+    "epochs_trained": 50,
+    "device": "cuda"
+  },
+  "ddpm": {
+    "fid": 32.217570672829254,
+    "is_mean": 6.765007958050349,
+    "is_std": 0.3382879287654233,
+    "n_generated": 3000,
+    "reference": "cifar10-train",
+    "sec_per_image": 1.0573320128023624,
+    "images_per_sec": 0.9457767171444955,
+    "train_time_min": 83.46569910446803,
+    "params_millions": 8.952067,
+    "epochs_trained": 50,
+    "device": "cuda"
+  }
+}
