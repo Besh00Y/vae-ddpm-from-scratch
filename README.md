@@ -4,7 +4,7 @@ Task GenCV003: implement a **Variational Autoencoder (VAE)** and a **Denoising D
 
 Everything (models, losses, noise schedule, samplers, training loops) is written by hand. The only external helper is `torch-fidelity`, used to compute FID and Inception Score.
 
-The full write-up (implementation details, analysis, and the main differences between the two approaches) is in [`report/report.pdf`](report/report.pdf).
+The full write-up (implementation details, analysis, and the main differences between the two approaches) is in [`report/report.pdf`](report/report.pdf) (please download the report to see it).
 
 ## Results
 
