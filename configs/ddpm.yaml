@@ -1,0 +1,28 @@
+seed: 42
+dataset: cifar10
+data_root: data
+num_workers: 2
+
+# model
+base_channels: 64
+ch_mult: [1, 2, 2, 2]
+num_res_blocks: 2
+attn_resolutions: [16]
+dropout: 0.1
+
+# diffusion
+timesteps: 1000
+beta_start: 0.0001
+beta_end: 0.02
+
+# training
+batch_size: 128
+epochs: 100
+lr: 0.0002
+ema_decay: 0.999
+amp: true            # mixed precision, faster on GPU
+
+save_every: 5        # checkpoint frequency (epochs)
+sample_every: 10     # generate preview images (epochs)
+output_dir: outputs/ddpm
+ckpt_dir: null       # on Colab, point this to Google Drive
