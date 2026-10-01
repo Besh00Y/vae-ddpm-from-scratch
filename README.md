@@ -117,6 +117,8 @@ Sampling 3000 images with the DDPM takes roughly one hour on a T4.
 
 ### Running on Google Colab
 
+Note: The notebooks in notebooks/ are clean templates without saved cell outputs. I ran the DDPM notebook on Colab, but I forgot to save the executed copy, so its console log is not included. The training results are preserved in outputs/ddpm/plots/history.json (per-epoch loss and training time), outputs/ddpm/samples/, and outputs/results.json.
+
 The three notebooks in `notebooks/` run the whole pipeline on a free T4: they clone this repo, store checkpoints on Google Drive, and can resume after a disconnect. Open a notebook, set your GitHub username in the clone cell, select a GPU runtime, and run the cells in order.
 
 ## Implementation summary
