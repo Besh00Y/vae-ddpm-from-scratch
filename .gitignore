@@ -8,3 +8,5 @@ outputs/*/checkpoints/
 outputs/vae_test/
 .ipynb_checkpoints/
 outputs/ddpm_test/
+outputs/generated/
+outputs/eval_test*
